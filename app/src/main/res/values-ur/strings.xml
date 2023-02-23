@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cost_of_service">سروس کی قیمت</string>
+    <string name="how_was_the_service">سروس کیسی رہی؟</string>
+    <string name="amazing_service">حیرت انگیز (20%)</string>
+    <string name="good_service">اچھا (18%)</string>
+    <string name="ok_service">ٹھیک ہے (15%)</string>
+    <string name="round_up_tip">راؤنڈ اپ ٹپ؟</string>
+    <string name="calculate">حساب لگانا</string>
+    <string name="tip_amount">ٹپ کی رقم</string>
+</resources>
