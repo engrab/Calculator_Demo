@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.calculatordemo.databinding.ActivityMainBinding
 import java.text.NumberFormat
-import kotlin.math.cos
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -34,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         var result = cost * percent
 
 
-        if (binding.roundUpSwitch.isChecked){
+        if (binding.roundUpSwitch.isActivated){
             result = kotlin.math.ceil(result)
         }
 
